@@ -19,15 +19,15 @@
 // the same name found in another header file.
 // From encoders.h
 extern volatile long count_e0;
-extern volatile long count_e1;
+extern volatile long count_e1; 
 
 // Some global definitions concerning
 // the robot dimensions.  You will need
 // to calibrate these to get the best
 // performance. (see Labsheet 4)
 const float count_per_rev = 358.3;   // From documentation - correct.
-const float wheel_radius  = 15.0;    // mm, could vary - calibrate.
-const float wheel_sep     = 45.0;    // mm, from centre of robot to wheel centre 
+const float wheel_radius  = 16.9;    // mm, could vary - calibrate.
+const float wheel_sep     = 45;    // mm, from centre of robot to wheel centre 
                                      //     - could vary, calibrate
 
 // Take the circumference of the wheel and divide by the 
